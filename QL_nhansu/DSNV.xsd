@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DSNV" targetNamespace="http://tempuri.org/DSNV.xsd" xmlns:mstns="http://tempuri.org/DSNV.xsd" xmlns="http://tempuri.org/DSNV.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DSNV" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DSNV" msprop:Generator_UserDSName="DSNV">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DSNV" msprop:Generator_TableClassName="DSNVDataTable" msprop:Generator_TableVarName="tableDSNV" msprop:Generator_TablePropName="_DSNV" msprop:Generator_RowDeletingName="DSNVRowDeleting" msprop:Generator_RowChangingName="DSNVRowChanging" msprop:Generator_RowEvHandlerName="DSNVRowChangeEventHandler" msprop:Generator_RowDeletedName="DSNVRowDeleted" msprop:Generator_UserTableName="DSNV" msprop:Generator_RowChangedName="DSNVRowChanged" msprop:Generator_RowEvArgName="DSNVRowChangeEvent" msprop:Generator_RowClassName="DSNVRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaNV" msprop:Generator_ColumnVarNameInTable="columnMaNV" msprop:Generator_ColumnPropNameInRow="MaNV" msprop:Generator_ColumnPropNameInTable="MaNVColumn" msprop:Generator_UserColumnName="MaNV" type="xs:string" minOccurs="0" />
+              <xs:element name="TenNV" msprop:Generator_ColumnVarNameInTable="columnTenNV" msprop:Generator_ColumnPropNameInRow="TenNV" msprop:Generator_ColumnPropNameInTable="TenNVColumn" msprop:Generator_UserColumnName="TenNV" type="xs:string" minOccurs="0" />
+              <xs:element name="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_UserColumnName="Email" type="xs:string" minOccurs="0" />
+              <xs:element name="Maphongban" msprop:Generator_ColumnVarNameInTable="columnMaphongban" msprop:Generator_ColumnPropNameInRow="Maphongban" msprop:Generator_ColumnPropNameInTable="MaphongbanColumn" msprop:Generator_UserColumnName="Maphongban" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
